@@ -6,22 +6,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Janae's Blog</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles/blog.css">
   <link rel="stylesheet" href="styles/debug.css">
-
   <style>
 
-  article {
+article {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr
+    grid-template-columns: 1fr 1fr 1fr;
 
-  }
+    height: 100vh;
+}
+
+  article * { grid-column: 1 / 4; }
 
   </style>
 </head>
 <body>
+  <article>
+    <p>ARTICLE</p>
+  </article>
   <p>Hello Everyone!</p>
 </body>
 </html>
